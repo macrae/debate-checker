@@ -1,0 +1,62 @@
+{"label": "QUANTMOD NOUN", "pattern": [{"lower": "least", "pos": "ADJ", "dep": "amod"}, {"pos": "NOUN"}]}
+{"label": "QUANTMOD NOUN", "pattern": [{"lower": "least", "pos": "ADJ", "dep": "amod"}, {"pos": "NOUN", "dep": "compound", "OP": "?"}, {"pos": "NOUN", "dep": "dobj", "OP": "?"}]}
+{"label": "QUANTMOD NOUN", "pattern": [{"lower": "lowest", "pos": "ADJ", "dep": "amod"}, {"pos": "NOUN"}]}
+{"label": "QUANTMOD NOUN", "pattern": [{"lower": "lowest", "pos": "ADJ", "dep": "amod"}, {"pos": "NOUN", "dep": "compound", "OP": "?"}, {"pos": "NOUN", "dep": "dobj", "OP": "?"}]}
+{"label": "QUANTMOD NOUN", "pattern": [{"lower": "most", "pos": "ADJ", "dep": "amod"}, {"pos": "NOUN"}, {"pos": "NOUN", "dep": "dobj", "OP": "?"}]}
+{"label": "NUMERIC", "pattern": [{"pos": "NUM", "dep": "compound"}, {"pos": "NUM"}]}
+{"label": "NUMERIC", "pattern": [{"pos": "NUM", "dep": "compound"}, {"pos": "NUM", "dep": "ROOT"}, {"pos": "CCONJ", "dep": "cc"}, {"pos": "NUM", "dep": "conj"}]}
+{"label": "CURRENCY", "pattern": [{"pos": "SYM", "dep": "quantmod"}, {"pos": "NUM", "dep": "compound"}, {"pos": "NUM"}]}
+{"label": "CURRENCY", "pattern": [{"pos": "NUM", "dep": "compound"}, {"pos": "NUM", "dep": "nummod"}, {"lower": "dollars"}]}
+{"label": "RATE OF NOUN", "pattern": [{"lower": "increased", "pos": "VERB", "dep": "ROOT"}, {"pos": "DET", "dep": "det"}, {"pos": "NOUN"}]}
+{"label": "RATE OF NOUN", "pattern": [{"lower": "increased", "pos": "VERB", "dep": "ROOT"}, {"pos": "NOUN"}]}
+{"label": "RATE OF NOUN", "pattern": [{"lower": "decreased", "pos": "VERB", "dep": "ROOT"}, {"pos": "DET", "dep": "det"}, {"pos": "NOUN"}]}
+{"label": "RATE OF NOUN", "pattern": [{"lower": "decreased", "pos": "VERB", "dep": "ROOT"}, {"pos": "NOUN"}]}
+{"label": "RATE OF NOUN", "pattern": [{"pos": "ADJ", "dep": "nsubj"}, {"pos": "VERB", "dep": "aux"}, {"pos": "VERB", "dep": "ROOT"}, {"pos": "ADJ", "dep": "acomp"}]}
+{"label": "RATE OF NOUN", "pattern": [{"pos": "NUM", "OP": "?"} {"pos": "NUM"}, {"lower": "to"}, {"pos": "NUM"}]}
+{"label": "PROPORTIONALITY", "pattern": [{"pos": "NOUN", "dep": "npadvmod"}, {"lower": "per", "pos": "ADP", "dep": "prep"}, {"pos": "NOUN", "dep": "pobj"}]}
+{"label": "PROPORTIONALITY", "pattern": [{"pos": "NUM", "dep": "nummod"}, {"lower": "percent"}]}
+{"label": "PROPORTIONALITY", "pattern": [{"pos": "NUM"}, {"lower": "in", "pos": "ADP"}, {"pos": "NUM"}]}
+{"label": "PROPORTIONALITY", "pattern": [{"lower": "half"}, {"lower": "of", "pos": "ADP"}]}
+{"label": "PROPORTIONALITY", "pattern": [{"lower": "majority"}, {"lower": "of", "pos": "ADP"}]}
+{"label": "PROPORTIONALITY", "pattern": [{"lower": "minority"}, {"lower": "of", "pos": "ADP"}]}
+{"label": "PROPORTIONALITY", "pattern": [{"lower": "doubled", "pos": "VERB"}]}
+{"label": "POINT OF COMPARISON", "pattern": [{"lower": "greater", "pos": "ADJ", "dep": "dobj"}, {"lower": "than", "pos": "ADP", "dep": "prep"}]}
+{"label": "POINT OF COMPARISON", "pattern": [{"lower": "less", "pos": "ADJ", "dep": "dobj"}, {"lower": "than", "pos": "ADP", "dep": "prep"}]}
+{"label": "POINT OF COMPARISON", "pattern": [{"lower": "than", "pos": "ADP", "dep": "mark"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "since", "pos": "ADP"}, {"lower": "then"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "since", "pos": "ADP"}, {"pos": "PROPN"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "after", "pos": "ADP", "dep": "prep"}, {"pos": "NUM", "dep": "nummod"}, {"pos": "NOUN", "dep": "pobj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "after", "pos": "ADP"}, {"pos": "PROPN"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "before", "pos": "ADP", "dep": "prep"}, {"pos": "NUM", "dep": "nummod"}, {"pos": "NOUN", "dep": "pobj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "before", "pos": "ADP"}, {"lower": "then"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "before", "pos": "ADP"}, {"pos": "PROPN"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "after", "pos": "ADP", "dep": "prep"}, {"pos": "VERB", "dep": "pcomp"}, {"pos": "DET", "dep": "det", "OP": "?"}, {"pos": "NOUN", "dep": "dobj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "after", "pos": "ADP", "dep": "mark"}, {"lower": "the", "pos": "DET", "dep": "det"}, {"pos": "ADJ", "dep": "amod", "OP": "?"}, {"pos": "NOUN", "dep": "nsubj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "after", "pos": "ADP", "dep": "ROOT"}, {"pos": "DET", "dep": "det"}, {"lower": "year", "pos": "NOUN", "dep": "npadvmod"}, {"lower": "long", "pos": "ADJ", "dep": "amod",  "OP": "?"}, {"pos": "NOUN", "dep": "pobj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "after", "pos": "ADP", "dep": "mark"}, {"pos": "DET", "dep": "det", "OP": "?"}, {"pos": "NOUN", "dep": "nsubj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "after", "pos": "ADP", "dep": "ROOT"}, {"lower": "an", "pos": "DET", "dep": "det", "OP": "?"}, {"lower": "air", "pos": "NOUN", "dep": "compound", "OP": "?"}, {"lower": "strike", "pos": "NOUN", "dep": "pobj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"pos": "NOUN", "dep": "npadvmod", "OP": "?"}, {"lower": "before", "pos": "ADP", "dep": "mark"}, {"lower": "a", "pos": "DET", "dep": "det", "OP": "?"}, {"pos": "NOUN", "dep": "nsubj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "before", "pos": "ADP", "dep": "prep"}, {"pos": "DET", "dep": "det", "OP": "?"}, {"pos": "PROPN", "dep": "compound", "OP": "?"}, {"pos": "PROPN", "dep": "compound", "OP": "?"}, {"pos": "PROPN", "dep": "pobj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "since", "pos": "ADP", "dep": "prep"}, {"pos": "PROPN", "dep": "compound", "OP": "?"}, {"pos": "PROPN", "dep": "pobj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "since", "pos": "ADP", "dep": "prep"}, {"pos": "DET", "dep": "det", "OP": "?"}, {"pos": "ADJ", "dep": "amod", "OP": "?"}, {"pos": "NOUN", "dep": "pobj"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "since", "pos": "ADP"}, {"pos": "PROPN", "dep": "compound", "OP": "?"}, {"pos": "NOUN", "dep": "pobj", "OP": "?"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "since", "pos": "ADP", "dep": "mark"}, {"pos": "PROPN", "dep": "compound", "OP": "?"}, {"pos": "PROPN", "dep": "nsubj", "OP": "?"}, {"pos": "VERB", "dep": "advcl", "OP": "?"}, {"pos": "NOUN", "dep": "attr", "OP": "?"}]}
+{"label": "TIME_PERIOD", "pattern": [{"lower": "since", "pos": "ADP"}, {"pos": "NOUN", "dep": "compound", "OP": "?"}, {"pos": "NOUN", "dep": "pobj", "OP": "?"}]}
+{"label": "HEDGES", "pattern": [{"lower": "roughly"}]}
+{"label": "HEDGES", "pattern": [{"lower": "approximately"}]}
+{"label": "HEDGES", "pattern": [{"lower": "generally"}]}
+{"label": "HEDGES", "pattern": [{"lower": "broadly"}]}
+{"label": "IMPRECISE_ADJ", "pattern": [{"lower": "most", "pos": "ADJ", "dep": "amod"}]}
+{"label": "IMPRECISE_ADJ", "pattern": [{"lower": "more", "pos": "ADV", "dep": "advmod"}, {"pos": "ADJ", "dep": "acomp"}]}
+{"label": "IMPRECISE_ADJ", "pattern": [{"lower": "huge", "pos": "ADJ", "dep": "amod"}, {"pos": "NOUN"}]}
+{"label": "IMPRECISE_NOUN", "pattern": [{"lower": "average", "pos": "ADJ", "dep": "amod"}, {"pos": "PROPN", "dep": "nsubj"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "nsubj"}, {"pos": "VERB"}, {"pos": "PROPN", "dep": "dobj"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "nsubj"}, {"pos": "VERB", "dep": "aux"}, {"pos": "VERB", "dep": "aux"}, {"pos": "VERB"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "nsubj"}, {"pos": "VERB"}, {"pos": "PART", "dep": "aux"}, {"pos": "VERB"}, {"pos": "NOUN", "dep": "dobj"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "nsubj"}, {"lower": "has", "pos": "VERB", "dep": "ROOT"}, {"lower": "to", "pos": "PART", "dep": "aux"}, {"lower": "be", "pos": "VERB", "dep": "xcomp"}, {"pos": "ADJ", "dep": "acomp"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "nsubj"}, {"lower": "have", "pos": "VERB", "dep": "ROOT"}, {"lower": "to", "pos": "PART", "dep": "aux"}, {"pos": "VERB", "dep": "xcomp"},  {"pos": "DET", "dep": "dobj"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "ADJ", "dep": "compound", "OP": "?"}, {"pos": "PROPN", "dep": "compound", "OP": "?"}, {"pos": "PROPN", "dep": "nsubj"}, {"pos": "VERB", "dep": "ROOT"}, {"pos": "NOUN", "dep": "dobj"}, {"lower": "of", "pos": "ADP", "dep": "prep", "OP": "?"}, {"lower": "the", "pos": "DET", "dep": "det", "OP": "?"}, {"pos": "NOUN", "dep": "pobj"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "compound", "OP": "?"}, {"pos": "PROPN", "dep": "nsubj"}, {"pos": "VERB", "dep": "aux"}, {"pos": "ADV", "dep": "neg", "OP": "?"}, {"pos": "VERB", "dep": "ROOT"}, {"pos": "DET", "dep": "det",  "OP": "?"}, {"pos": "NOUN", "dep": "dobj"}, {"pos": "ADP", "dep": "prep", "OP": "?"}, {"pos": "PROPN", "dep": "pobj", "OP": "?"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "nsubj"}, {"pos": "VERB", "dep": "ROOT"}, {"pos": "PART", "dep": "aux", "OP": "?"}, {"pos": "VERB", "dep": "auxpass", "OP": "?"}, {"pos": "VERB", "dep": "xcomp"}, {"pos": "ADP", "dep": "prep"}, {"pos": "NOUN", "dep": "compound", "OP": "?"}, {"pos": "NOUN", "dep": "pobj"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "compound"}, {"pos": "PROPN", "dep": "nsubj"}, {"lower": "has", "pos": "VERB", "dep": "ROOT"}, {"lower": "to", "pos": "PART", "dep": "aux"}, {"lower": "be", "pos": "VERB", "dep": "xcomp"}, {"pos": "ADJ", "dep": "acomp"}]}
+{"label": "PROPN PROPERTY", "pattern": [{"pos": "PROPN", "dep": "compound"}, {"pos": "PROPN", "dep": "nsubj"}, {"pos": "VERB", "dep": "ROOT"}, {"pos": "NOUN", "dep": "dobj"}, {"lower": "of", "pos": "ADP", "dep": "prep", "OP": "?"}, {"lower": "the", "pos": "DET", "dep": "det", "OP": "?"}, {"pos": "NOUN", "dep": "compound"}, {"pos": "NOUN", "dep": "pobj"}]}

@@ -3,7 +3,6 @@ Cloudformation/
 bin/
 include/
 pip-selfcheck.json
-pytest.ini
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files
@@ -110,6 +109,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# prodigy
+.prodigy
+prodigy/resources/
+
 # misc.
 .idea
 .DS_Store
@@ -118,4 +121,3 @@ venv.bak/
 .venv/
 *.swp
 jupyter/
-prodigy/resources/
