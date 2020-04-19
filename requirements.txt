@@ -5,4 +5,3 @@ falcon==1.4.1
 hug==2.4.1
 thinc==6.10.3
 spacy==2.0.12
-prodigy==1.5.1

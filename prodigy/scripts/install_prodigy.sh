@@ -1,9 +1,9 @@
 python3 -m venv .venv
 source .venv/bin/activate
 
-pip install resources/prodigy-1.4.0-cp35.cp36-cp35m.cp36m-macosx_10_13_x86_64.whl
-pip install resources/en_vectors_web_lg-2.0.0.tar.gz
-pip install resources/en_core_web_sm-2.0.0.tar.gz
+pip install prodigy/resources/prodigy-1.4.0-cp35.cp36-cp35m.cp36m-macosx_10_13_x86_64.whl
+pip install prodigy/resources/en_vectors_web_lg-2.0.0.tar.gz
+pip install prodigy/resources/en_core_web_sm-2.0.0.tar.gz
 
 pip uninstall spacy
 pip uninstall thinc
